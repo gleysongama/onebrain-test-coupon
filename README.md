@@ -12,7 +12,6 @@ src/main/java/br/com/gama/coupon/
 │   │   └── CouponApplicationService.java
 │   ├── command/                     # Comandos (DTOs de entrada para os Use Cases)
 │   │   └── CreateCouponCommand.java
-│   │   └── UpdateCouponCommand.java
 │   └── query/                       # Queries (DTOs de saída para os Use Cases)
 │       └── CouponResponse.java
 │
