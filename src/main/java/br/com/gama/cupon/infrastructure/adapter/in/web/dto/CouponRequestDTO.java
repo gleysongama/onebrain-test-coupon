@@ -1,7 +1,6 @@
 package br.com.gama.cupon.infrastructure.adapter.in.web.dto;
 
 import br.com.gama.cupon.application.command.CreateCouponCommand;
-import br.com.gama.cupon.application.command.UpdateCouponCommand;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.FutureOrPresent;
@@ -44,15 +43,6 @@ public class CouponRequestDTO {
     public CreateCouponCommand toCreateCommand() {
         return CreateCouponCommand.builder()
                 .code(this.code)
-                .description(this.description)
-                .discountValue(this.discountValue)
-                .expirationDate(this.expirationDate)
-                .published(this.published)
-                .build();
-    }
-
-    public UpdateCouponCommand toUpdateCommand() {
-        return UpdateCouponCommand.builder()
                 .description(this.description)
                 .discountValue(this.discountValue)
                 .expirationDate(this.expirationDate)

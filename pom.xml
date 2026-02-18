@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.gama</groupId>
-	<artifactId>cupon</artifactId>
+	<artifactId>onebrain-test-coupon</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cupon</name>
 	<description>Project Spring Boot for cupon</description>

@@ -8,8 +8,6 @@ src/main/java/br/com/gama/coupon/
 │   │   └── in/                      # Portas de entrada (quem quer interagir com o domínio)
 │   │       └── CreateCouponUseCase.java
 │   │       └── DeleteCouponUseCase.java
-│   │       └── GetCouponUseCase.java
-│   │       └── UpdateCouponUseCase.java
 │   ├── service/                     # Implementações dos Use Cases (Camada de Serviço da Aplicação)
 │   │   └── CouponApplicationService.java
 │   ├── command/                     # Comandos (DTOs de entrada para os Use Cases)
